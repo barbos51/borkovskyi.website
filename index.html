@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="radio" name="button" id="id1">
+    <input type="radio" name="button" id="id2">
+    <input type="radio" name="button" id="id3">
+    <input type="radio" name="button" id="id4">
+    <input type="radio" name="button" id="id5">
+    <input type="radio" name="button" id="id6" checked>
+
+    <h1>Торти і тістечка</h1>
+    <div class="main">
+        <div class="menu">
+            <div class="slider-container">
+                <div class="slider-title">Калорії у порції</div>
+                <input id="calorie-slider" type="range" min="0" max="500" step="10" value="200"
+                    oninput="this.nextElementSibling.textContent = this.value">
+                <output>200</output>
+                <div class="slider-values">
+                    <span>Від 0</span>
+                    <span>до 500 кКал</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <label for="id1">Пиріг</label>
+                <label for="id2">Тістечко</label>
+                <label for="id3">Рулет</label>
+                <label for="id4">Торт</label>
+                <label for="id5">Сирник</label>
+                <label for="id6">Скинути фільтр</label>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="content">
+
+            <div class="info tistechko">
+                <div class="photo">
+                    <img src="image/ekleru_sitewebukr-1000x600.jpg" alt="еклер" class="image">
+                </div>
+                <div class="title">
+                    <strong>Тістечко:</strong> <a href="https://klopotenko.com/eklery-klasychnyi-retsept/"> Еклер</a>
+                </div>
+                <div class="callory">
+                    <div class="line"></div>
+                    225 калорій
+                </div>
+            </div>
+            <div class="info tort">
+                <div class="photo">
+                    <img src="image/cheescake-z-pechyva-z-yablychnum-varennyam_sitewebukr-1000x600.jpg"
+                        alt="чізкейк з яблуком" class="image">
+                </div>
+                <div class="title">
+                    <strong>Торт:</strong> <a
+                        href="https://klopotenko.com/povitryanyj-ta-nizhnyj-chyzkejk-z-pechyva-z-yabluchnym-varennyam-bez-vypikannya/">
+                        Чізкейк з яблуком</a>
+                </div>
+                <div class="callory">
+                    <div class="line"></div>
+                    300 калорій
+                </div>
+            </div>
+            <div class="info tort">
+                <div class="photo">
+                    <img src="image/zakher_sitewebukr-1000x600.jpg" alt="Захер" class="image">
+                </div>
+                <div class="title">
+                    <strong>Торт:</strong> <a
+                        href="https://klopotenko.com/ne-zovsim-klasychnyj-gotuyemo-a-lya-tort-zaher/"> Захер</a>
+                </div>
+                <div class="callory">
+                    <div class="line"></div>
+                    425 калорій
+                </div>
+            </div>
+            <div class="info sirnik">
+                <div class="photo">
+                    <img src="image/lvivskyy-syrnyk_sitewebukr-1000x600.jpg" alt="львівський сирник" class="image">
+                </div>
+                <div class="title">
+                    <strong>Сирник:</strong> <a
+                        href="https://klopotenko.com/tradyczijnyj-lvivskyj-syrnyk-prostyj-reczept-smachnogo-desertu/">
+                        львівський сирник</a>
+                </div>
+                <div class="callory">
+                    <div class="line"></div>
+                    410 калорій
+                </div>
+            </div>
+            <div class="info sirnik">
+                <div class="photo">
+                    <img src="image/Lvovskiy_syrnik_siteWeb.jpg" alt="сирник з солоною карамеллю" class="image">
+                </div>
+                <div class="title">
+                    <strong>Сирник:</strong> <a href="https://klopotenko.com/lvivskij-syrnyk/"> сирник з солоною
+                        карамеллю</a>
+                </div>
+                <div class="callory">
+                    <div class="line"></div>
+                    400 калорій
+                </div>
+            </div>
+            <div class="info pie">
+                <div class="photo">
+                    <img src="image/sluvovyi-purig-new-york-times_sitewebukr-1000x600.jpg" alt="пиріг зі сливами"
+                        class="image">
+                </div>
+                <div class="title">
+                    <strong>Пиріг:</strong> <a
+                        href="https://klopotenko.com/strava-shho-stala-legendoyu-pyrig-zi-slyvamy-z-gazety-the-new-york-times/">
+                        Пиріг зі сливами</a>
+                </div>
+
+                <div class="callory">
+                    <div class="line"></div>
+                    225 калорій
+                </div>
+            </div>
+
+            <div class="info pie">
+                <div class="photo">
+                    <img src="image/yabluchna-sharlotka-na-kefiri_sitewebukr-img-1000x600.jpg" alt="Яблучний пиріг"
+                        class="image">
+                </div>
+                <div class="title">
+                    <strong>Пиріг:</strong> <a href="https://klopotenko.com/yablychnyi-pyrig-na-kefiri/"> Яблучний
+                        пиріг</a>
+                </div>
+
+                <div class="callory">
+                    <div class="line"></div>
+                    275 калорій
+                </div>
+            </div>
+
+            <div class="info rulet">
+                <div class="photo">
+                    <img src="image/biskvitnyy-rulet_sitewebukr-img-1000x600.jpg" alt="бісквітний рулет" class="image">
+                </div>
+                <div class="title">
+                    <strong>Рулет:</strong> <a
+                        href="https://klopotenko.com/najnizhnishyj-z-usih-yak-prygotuvaty-biskvitnyj-rulet/"> бісквітний
+                        рулет</a>
+                </div>
+
+                <div class="callory">
+                    <div class="line"></div>
+                    275 калорій
+                </div>
+            </div>
+
+            <div class="info rulet">
+                <div class="photo">
+                    <img src="image/Rulet-z-makom_siteWebUkr.jpg" alt="Маковий рулет з варенням" class="image">
+                </div>
+                <div class="title">
+                    <strong>Рулет:</strong> <a href="https://klopotenko.com/rulet-z-makom-i-varenyam/"> Маковий рулет з
+                        варенням</a>
+                </div>
+
+                <div class="callory">
+                    <div class="line"></div>
+                    325 калорій
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Контакти:</strong> +380668328095</p>
+            <p><strong>Email:</strong> ivanovicbarbos51@gmail.com</p>
+        </footer>
+    </div>
+</body>
+
+</html>
